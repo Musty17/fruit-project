@@ -9,10 +9,14 @@ a {
 ul {
     list-style-type: none;
 }
+body {
+    font-family: "Open Sans", sans-serif;
+}
 .container {
     padding-right: 75px;
     padding-left: 75px; 
 }
+/* HEADER TOP START */
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -34,6 +38,7 @@ ul {
     color: #fff;
 }
 .header-top .address {
+    margin-left: 5px;
     margin-right: 12px;
     display: flex;
     align-items: center;
@@ -52,4 +57,66 @@ ul {
 .header-top .sol p {
     color: #fff;
 }
-
+.header-top .sag .policy a:hover {
+    color: #FFB524;
+    transition: 0.5s;
+}
+/* HEADER START */
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    margin-top: 25px;
+}
+.header-bottom .logo {
+    color: #81C408;
+    font-size: 32px;
+    font-weight: 800;
+}
+.header-bottom .menu {
+    display: flex;
+    align-items: center;
+}
+.header-bottom .menu li {
+    margin-right: 12px;
+}
+.header-bottom .menu li a {
+    color: rgba(0,0,0,.7);
+    font-size: 20px;
+    transition: .5s;
+}
+.header-bottom .menu li a:hover {
+    color: #81C408;
+}
+.header-bottom .icon i {
+    font-size: 32px;
+    color: #81C408;
+    cursor: pointer;
+}
+.header-bottom .icon .search i {
+    font-size: 16px;
+}
+.header-bottom .icon {
+    display: flex;
+    align-items: center;
+}
+.header-bottom .icon div {
+    margin-right: 12px;
+}
+.header-bottom .icon div:first-child {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.header-bottom .icon i:hover {
+    color: #198754;
+    transition: .5s;
+}
+.header-bottom .icon .search:hover {
+    background-color: #FFB524;
+}
