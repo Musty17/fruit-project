@@ -6,69 +6,103 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
     <!-- HEADER START -->
     <header>
-        <!-- HEADER TOP -->
+      <!-- HEADER TOP -->
       <div class="container">
         <div class="header-top">
           <div class="sol">
             <div class="address">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>123 Street, New York</p>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>123 Street, New York</p>
             </div>
             <div class="mail">
-                <i class="fa-solid fa-envelope"></i>
-                <p>Example@mail.com</p>
+              <i class="fa-solid fa-envelope"></i>
+              <p>Example@mail.com</p>
             </div>
           </div>
 
           <div class="sag">
             <ul class="policy">
-                <li><a href="#">Privacy Policy /</a></li>
-                <li><a href="#">Terms of Use /</a></li>
-                <li><a href="#">Sales and Refunds</a></li>
+              <li><a href="#">Privacy Policy /</a></li>
+              <li><a href="#">Terms of Use /</a></li>
+              <li><a href="#">Sales and Refunds</a></li>
             </ul>
           </div>
         </div>
         <!-- HEADER -->
         <div class="header-bottom">
-            <div class="logo">
-                Fruitables
+          <!-- HEADER LEFT -->
+          <div class="logo">Fruitables</div>
+          <!-- HEADER MENU -->
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Shop Detail</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <!-- HEADER RİGHT ICON -->
+          <div class="icon">
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Shop Detail</a></li>
-                <li><a href="">Pages</a></li>
-                <li><a href="">Contact</a></li>
-               
-            </ul>
-            <div class="icon">
-                <div class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-user"></i>
-                </div>
-
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
             </div>
-
-            <div class="hamburger-icon">
-                <i id="responsive-menu" class="fa fa-bars"></i>
+            <div>
+              <i class="fa-solid fa-user"></i>
             </div>
+          </div>
+          <!-- RESPONSİVE HAMBURGER MENU -->
+          <div class="hamburger-icon">
+            <i id="responsive-menu" class="fa fa-bars"></i>
+          </div>
         </div>
       </div>
     </header>
+    <!-- HERO START -->
+    <div class="hero">
+      <div class="container hero-background">
+        <div class="search-button">
+          <p>100% Organic Foods</p>
+          <h1>Organic Veggies &
+            <br>
+            Fruits Foods</h1>
+          <form class="hero-button">
+            <input id="arama" type="text" placeholder="Search.." name="search">
+            <button id="arama-butonu" type="submit">Submit Now</button>
+          </form>
+        </div>
+        <div class="slide">
+          <div class="hero-img">
+          <img src="./assets/images/hero-img-1.png" alt="">
+          </div>
+          <div id="middle-hero">
+            <div id="ortalama">Fruites</div>
+          </div>
+          <div class="sola-kaydirma">
+            <div class="circle">
+            <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+          <div class="saga-kaydirma">
+            <div class="circle2">
+            <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
