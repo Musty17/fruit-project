@@ -80,7 +80,7 @@ body {
     align-items: center;
 }
 .header-bottom .menu li {
-    margin-right: 12px;
+    margin-right: 16px;
 }
 .header-bottom .menu li a {
     color: rgba(0,0,0,.7);
@@ -124,31 +124,6 @@ body {
 .hamburger-icon{
     display: none;
 }
-/* HEADER RESPONSİVE  */
-@media screen and (max-width: 992px) {
-    .header-top {
-        display: none;
-    }
-    .header-bottom .menu {
-        display: none;
-    }
-    .header-bottom .icon {
-        display: none;
-    }
-    .hamburger-icon {
-        display: block;
-        font-size: 32px;
-        color: #81C408;
-        border: 1px solid gray;
-        border-radius: 10px;
-        padding: 5px 20px;
-    }
-    .hamburger-icon:hover {
-        background-color: #81C408;
-        color: #fff;
-        cursor: pointer;
-    }
-}
 /* HERO START */
 .hero {
     background-image: url(./assets/images/hero-img.jpg);
@@ -156,7 +131,7 @@ body {
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 525px;
+    min-height: 525px;
 }
 .hero-background {
     display: flex;
@@ -188,12 +163,12 @@ body {
 }
 .hero .hero-button {
     border: 2px solid #FFB524;
-    border-radius: 20px
+    border-radius: 800px
 }
 .hero .hero-button #arama {
     padding: 20px;
     /* width: 70%; */
-    border-radius: 20px;
+    border-radius: 800px;
     border: none;
 }
 .hero .hero-button #arama:hover {
@@ -201,13 +176,16 @@ body {
 }
 .hero .hero-button #arama-butonu {
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 800px;
     cursor: pointer;
     color: #fff;
     background-color: #81C408;
     float: right;
     border: 1px solid #FFB524;
     display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    display: table;
 }
 .hero .hero-button #arama-butonu:hover {
     background-color: #FFB524;
@@ -289,113 +267,150 @@ body {
     font-size: 25px;
     font-weight: 600;
 }
-/* HERO RESPONSİVE  */
-@media screen and (max-width: 1215px) {
-    .hero .hero-button #arama {
-        padding: 15px;
-    }
-    .hero .hero-button #arama-butonu {
-        padding: 15px;
-    }
+/* FEATURS SECTİON START */
+.container .featurs {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
 }
-@media screen and (max-width: 1170px) {
-    .slide .saga-kaydirma {
-        font-size: 25px;
-    }
-    .slide .sola-kaydirma {
-        font-size: 25px;
-    }
+.container .featurs .point {
+    display: flex;
+    background-color: #F4F6F8;
+    height: 250px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: calc(25% - 20px);
+    margin: 10px;
 }
-@media screen and (max-width: 992px) {
-    .hero-background {
-        flex-direction: column;
-    }
+.container .featurs .point #car {
+    color: #fff;
+    padding: 15px;
 }
-@media screen and (max-width: 760px) {
-    .hero .search-button h1 {
-        font-size: 46px;
-    }
+.container .featurs .point i {
+    font-size: 48px;
 }
-@media screen and (max-width: 600px) {
-    .hero .search-button h1 {
-        font-size: 36px;
-    }
-    .hero .search-button p {
-        font-size: 16px;
-    }
-    .hero .hero-button #arama {
-        padding: 10px;
-    }
-    .hero .hero-button #arama-butonu {
-        padding: 10px;
-    }
-    .slide .saga-kaydirma {
-        font-size: 15px;
-    }
-    .slide .sola-kaydirma {
-        font-size: 15px;
-    }
-    .slide #middle-hero {
-        padding: 5px;
-    }
-    .container {
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-    .slide #middle-hero {
-        top: 59%;
-    }
-    .slide .sola-kaydirma {
-        top: 55%;
-    }
-    .slide .saga-kaydirma {
-        top: 55%;
-    }
+.container .featurs .point h1 {
+    color: #45595B;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-@media screen and (max-width: 485px) {
-    .hero .hero-button #arama {
-        padding: 5px;
-    }
-    .hero .hero-button #arama-butonu {
-        padding: 5px;
-    }
-    .slide .saga-kaydirma {
-        font-size: 10px;
-    }
-    .slide .sola-kaydirma {
-        font-size: 10px;
-    }
-    .slide #middle-hero {
-        padding: 2px;
-    }
-    .slide #middle-hero #ortalama {
-        font-size: 20px;
-    }
+.container .featurs .point p {
+    color: #747D96;
 }
-@media screen and (max-width: 380px) {
-    .container {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    .hero .hero-button #arama {
-        padding: 2.5px;
-    }
-    .hero .hero-button #arama-butonu {
-        padding: 2.5px;
-    }
-    .hero .search-button h1 {
-        font-size: 30px;
-    }
-    .hero .search-button p {
-        font-size: 12px;
-    }
-    .slide #middle-hero #ortalama {
-        font-size: 15px;
-    }
-    .slide .sola-kaydirma {
-        right: 87%;
-    }
-    .slide .saga-kaydirma {
-        left: 87%;
-    }
+.container .featurs .point .kapsam {
+    background-color: #FFB524;
+    border-radius: 100%;
+    padding: 15px;
+    margin-bottom: 45px;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* OUR ORGANİC PRODUCTS START */
+.organic-products-header {
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.organic-products-header .organic-products-logo p {
+    font-size: 40px;
+    font-weight: 600;
+}
+.organic-products-menu li {
+    margin-right: 15px;
+    background-color: #F4F6F8;
+    padding: 10px;
+    border-radius: 80px;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.organic-products-menu li:first-child {
+    background-color: #FFB524;
+}
+
+.organic-products-menu #organic {
+    display: flex;
+}
+.organic-products-menu #organic a {
+    color: #747D96;
+}
+.organic-products-menu #organic li:first-child a {
+    color: #fff;
+}
+/* OUR ORGANİC PRODUCTS CARD START */
+.organic-products-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.organic-products-cards .card {
+    border: 1px solid #FFB524;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 20px);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.organic-products-cards .card:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+.organic-products-cards .card #img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.organic-products-cards .card .card-image {
+    overflow: hidden;
+}
+.organic-products-cards .card #img:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.organic-products-cards .card .card-content h1,p {
+    text-align: center;
+}
+.organic-products-cards .card .card-content h1 {
+    margin-bottom: 10px;
+    color: #747D96;
+    font-size: 24px;
+}
+.organic-products-cards .card .card-content {
+    margin-top: 20px;
+}
+.organic-products-cards .card .card-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.organic-products-cards .card .card-footer p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #45595B;
+}
+.organic-products-cards .card .card-footer div button {
+    background-color: #fff;
+    color: #81C408;
+    padding: 10px 15px;
+    border-radius: 80px;
+    border: 1px solid #FFB524;
+    font-size: 18px;
+}
+.organic-products-cards .card .card-footer div button:hover {
+    background-color: #FFB524;
+    color: #F4F6F8;
+    transition: 0.5s;
 }
