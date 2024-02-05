@@ -12,6 +12,10 @@
     .slide .sola-kaydirma {
         font-size: 25px;
     }
+    .organic-products-cards .card {
+        width: calc(50% - 70px);
+    }
+
 }
 @media screen and (max-width: 992px) {
     .hero-background {
@@ -42,10 +46,36 @@
     .container .featurs .point {
         width: calc(50% - 20px);
     }
+    .organic-products-header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .organic-products-menu #organic {
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 768px) {
     .hero .search-button h1 {
         font-size: 46px;
+    }
+    .organic-products-cards {
+        align-items: center;
+        justify-content: center;
+    }
+    .organic-products-cards .card {
+        width: 80%;
+    }
+    .organic-products-cards .card .card-footer div button {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    .organic-products-cards .card .card-footer p {
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 600px) {

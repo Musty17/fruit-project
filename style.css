@@ -331,6 +331,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    cursor: pointer;
 }
 .organic-products-menu li:first-child {
     background-color: #FFB524;
@@ -372,6 +373,18 @@ body {
 }
 .organic-products-cards .card .card-image {
     overflow: hidden;
+    position: relative !important;
+}
+.organic-products-cards .card .card-image .on-img {
+    background-color: #FFB524;
+    color: #fff;
+}
+.organic-products-cards .card .card-image .on-img:first-child {
+    position: absolute;
+    border-radius: 10px;
+    padding: 5px 10px;
+    left: 10px;
+    top: 10px;
 }
 .organic-products-cards .card #img:hover {
     transform: scale(1.3);
