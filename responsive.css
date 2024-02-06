@@ -58,6 +58,25 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .container .footer-header {
+        text-align: center;
+        display: flow-root;
+    }
+    .container .footer-header .footer-subscribe  {
+        width: 80%;
+        margin:auto;
+        justify-content: center;
+    }
+    .container .footer-header .footer-icon {
+        justify-content: center;
+    }
+    .container .footer-content {
+        flex-wrap: wrap;
+    }
+    .footer-content .fc-1 {
+        width: calc(50% - 20px);
+    }
+    
 }
 @media screen and (max-width: 768px) {
     .hero .search-button h1 {
@@ -76,6 +95,14 @@
     }
     .organic-products-cards .card .card-footer p {
         font-size: 16px;
+    }
+    .footer-copyright {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-content .fc-1 {
+        width: 100%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -137,6 +164,10 @@
     }
     .slide #middle-hero #ortalama {
         font-size: 20px;
+    }
+    .container .footer-header .footer-subscribe .footer-button .button-text,.submit  {
+        padding: 8px 12px;
+        height: 35px;
     }
 }
 @media screen and (max-width: 380px) {
