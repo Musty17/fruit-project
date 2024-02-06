@@ -617,3 +617,229 @@ footer {
     color: #81C408;
     border-bottom: 1px solid #fff;
 }
+/* SHOP DETAİL PAGE */
+.page-header {
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/cart-page-header-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.page-header h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+.page-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.page-links p {
+    padding: 0px 10px;
+}   
+#white {
+    color: #fff;
+}
+.page-links li a {
+    color: #81C408;
+}
+/* PAGE CONTENTS START */
+.row {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.colon-1 {
+    width: 75%;
+    display:flex;
+    justify-content: space-between;
+}
+.page-card-inclusive {
+    display: flex;
+    justify-content: space-between;
+}
+.page-card-image {
+    width: 50%;
+    margin-right: 15px;
+}
+.page-card-image img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid #45595B;
+    border-radius: 10px;
+}
+.page-card {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.mb-20 {
+    margin-bottom: 30px;
+}
+.ta-left {
+    text-align: left;
+}
+.tc {
+    color: #747D96;
+}
+.star {
+    display: flex;
+    justify-content: left;
+}
+.star i {
+    color: #FFB524;
+}
+.page-card-header {
+    text-align: left;
+    justify-content: left;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.page-card-header h3 {
+    color: #45595B;
+    font-weight: 800;
+    font-size: 24px;
+}
+.categories {
+    display: table-row;
+    justify-content:center;
+    width: 100%;
+}
+.arttirma-kapsam {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.arttirma-kapsam input {
+    border: none;
+    background-color: #fff;
+    width: 43px;
+    text-align: center;
+    font-size: 16px;
+}
+.ab {
+    background-color: #F4F6F8;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.page-button button {
+    color: #81C408;
+    background-color: #fff;
+    border-radius: 800px;
+    padding: 10px 20px;
+    border: 1px solid #FFB524;
+    font-size: 16px;
+    line-height: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.page-button button:hover {
+    background-color: #FFB524;
+    color: #fff;
+    transition: 0.5s;
+}
+.colon-2 {
+    width: 25%;
+}
+.categories {
+    position: relative;
+    align-items: stretch;
+    margin-bottom: 50px;
+}
+.kategori-search {
+    width: 100%;
+    display: flex;
+}
+.categori-input {
+    width: 100%;
+    position: relative;
+    border: 1px solid #E9ECEF;
+    border-radius: 10px 0 0 10px;
+}
+.page-search-icon {
+    justify-content: center;
+    align-items: center;
+    background-color: #E9ECEF;
+    padding: 20px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    border-radius: 0 10px 10px 0;
+}
+.categori-input {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+.lh {
+    line-height: 40px;
+}
+.color {
+    color: #81C408;
+    font-size: 16px;
+}
+.color:hover {
+    color: #FFB524;
+    transition: 0.5s;
+}
+.h2-color {
+    color: #45595B;
+    text-align: left;
+    font-size: 24px;
+}
+.featured-products {
+    align-items: center;
+    margin-top: 50px;
+}
+.mini-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.mini-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+.local-img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+.cheap {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #45595B;
+}
+.expensive {
+    font-size: 20px;
+    font-weight: 700;
+    color: #DB3444;
+    text-decoration: line-through;
+}
+/* DESCRİPTİON SECTİON START */
+.description-header {
+    border-bottom: 1px solid #dee2e6;
+}
+.description {
+    display: block;
+}

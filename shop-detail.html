@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,20 +50,21 @@
           <ul class="menu">
             <li><a href="#" id="Home">Home</a></li>
             <li><a href="#">Shop</a></li>
-            
+
             <li><a href="./shop-detail.html">Shop Detail</a></li>
             <div class="header-dropdown">
-            <li id="Pages">
-              <a href="#">Pages
-                <i class="fa-solid fa-chevron-down" id="bottom-arrow"></i>
-              </a>
-              <div class="drop-down-menu">
-                <a href="#" class="drop-down-item">Cart</a>
-                <a href="#" class="drop-down-item">Checkout</a>
-                <a href="#" class="drop-down-item">Testimonial</a>
-                <a href="#" class="drop-down-item">404 Page</a>
-              </div>
-            </li>
+              <li id="Pages">
+                <a href="#"
+                  >Pages
+                  <i class="fa-solid fa-chevron-down" id="bottom-arrow"></i>
+                </a>
+                <div class="drop-down-menu">
+                  <a href="#" class="drop-down-item">Cart</a>
+                  <a href="#" class="drop-down-item">Checkout</a>
+                  <a href="#" class="drop-down-item">Testimonial</a>
+                  <a href="#" class="drop-down-item">404 Page</a>
+                </div>
+              </li>
             </div>
             <li><a href="#">Contact</a></li>
           </ul>
@@ -85,235 +87,233 @@
         </div>
       </div>
     </header>
+    <!-- HEADER END  -->
     <!-- HERO START -->
-    <div class="hero">
-      <div class="container hero-background">
-        <div class="search-button">
-          <p>100% Organic Foods</p>
-          <h1>Organic Veggies &
-            <br>
-            Fruits Foods</h1>
-          <form class="hero-button">
-            <input id="arama" type="text" placeholder="Search.." name="search">
-            <button id="arama-butonu" type="submit">Submit Now</button>
-          </form>
-        </div>
-        <div class="slide">
-          <div class="hero-img">
-          <img src="./assets/images/hero-img-1.png" alt="">
-          </div>
-          <div id="middle-hero">
-            <div id="ortalama">Fruites</div>
-          </div>
-          <div class="sola-kaydirma">
-            <div class="circle">
-            <i class="fa-solid fa-arrow-left"></i>
-            </div>
-          </div>
-          <div class="saga-kaydirma">
-            <div class="circle2">
-            <i class="fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
-        </div>
+    <div class="page-hero">
+      <div class="page-header">
+        <h1>Shop Detail</h1>
+        <ul class="page-links">
+          <li><a href="#">Home</a></li>
+          <p>/</p>
+          <li><a href="#">Pages</a></li>
+          <p>/</p>
+          <li><a href="#" id="white">Shop Detail</a></li>
+        </ul>
       </div>
     </div>
     <!-- HERO END -->
-    <!-- FEATURS SECTİON START -->
+    <!-- PAGE CONTENTS START -->
     <div class="container">
-      <div class="featurs">
-        <div class="point car-icon">
-          <div class="kapsam">
-          <i class="fa-solid fa-car" id="car"></i>
+      <div class="row">
+        <div class="colon-1">
+          <div class="page-card-inclusive">
+            <div class="page-card-image">
+              <img src="./assets/images/single-item.jpg" alt="" />
+            </div>
+            <div class="page-card">
+              <div class="page-card-header">
+                <h3 class="mb-20">Brocoli</h3>
+                <p class="mb-20 ta-left tc ">Category: Vegetables</p>
+                <h3 class="mb-20">3,35$</h3>
+                <div class="star mb-20">
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </div>
+                <p class="mb-20 ta-left tc ">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
+                <p class="mb-20 ta-left tc ">Susp endisse ultricies nisi vel quam suscipit. Sabertooth peacock flounder; chain pickerel hatchetfish, pencilfish snailfish</p>
+                <div class="arttirma-kapsam mb-20">
+                  <div class="arttirma">
+                    <i class="fa fa-minus ab"></i>
+                  </div>
+                  <input type="text" value="1">
+                  <div class="arttirma">
+                    <i class="fa fa-plus ab"></i>
+                  </div>
+                </div>
+                <div class="page-button">
+                  <button>
+                    <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-          <h1>Free Shipping</h1>
-          <p>Free on order over $300</p>
+          <div class="description">
+            <div class="description-header">
+            </div>
+          </div>
+          <div class="form"></div>
         </div>
-        <div class="point user-icon">
-          <div class="kapsam">
-          <i class="fa-solid fa-user-shield" id="car"></i>
-          </div>
-          <h1>Security Payment</h1>
-          <p>100% security payment</p>
-          </div>
-        <div class="point arrow-icon">
-          <div class="kapsam">
-          <i class="fa-solid fa-right-left" id="car"></i>
-          </div>
-          <h1>30 Day Return</h1>
-          <p>100% security payment</p>
-        </div>
-        <div class="point phone-icon">
-          <div class="kapsam">
-          <i class="fa-solid fa-phone" id="car"></i>
-          </div>
-          <h1>24/7 Support</h1>
-          <p>Support every time fast</p>
-        </div>
-      </div>
-    </div>
-    <!-- OUR ORGANİC PRODUCTS SECTİON START -->
-    <div class="container">
-      <!-- OUR ORGANİC PRODUCTS HEADER -->
-      <div class="organic-products-header">
-        <div class="organic-products-logo">
-          <p>Our Organic Products</p>
-        </div>
-        <div class="organic-products-menu">
-          <ul id="organic">
-            <li><a href="#">All Products</a></li>
-            <li><a href="#">Vegetables</a></li>
-            <li><a href="#">Fruits</a></li>
-            <li><a href="#">Bread</a></li>
-            <li><a href="#">Meat</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- OUR ORGANİC PRODUCTS CARD START -->
-      <div class="organic-products-cards">
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
+        <div class="colon-2">
+          <div class="categories">
+            <div class="kategori-search mb-20">
+              <input class="categori-input" type="text" placeholder="keywords">
+              <div class="page-search-icon"><i class="fa fa-search"></i></div>
             </div>
-            <img id="img" src="./assets/images/fruite-item-5.jpg" alt="">
+            <h2 class="mb-20 h2-color">Categoires</h2>
+            <ul>
+              <div class="jc-sb lh">
+              <li><a class="color" href="#">
+                <i class="fas fa-apple-alt me-2"></i>
+                Apples</a></li>
+              <p>(3)</p>
+              </div>
+            </ul>
+            <ul>
+              <div class="jc-sb lh">
+              <li><a class="color" href="#">
+                <i class="fas fa-apple-alt me-2"></i>
+                Oranges</a></li>
+              <p>(5)</p>
+              </div>
+            </ul>
+            <ul>
+              <div class="jc-sb lh">
+              <li><a class="color" href="#">
+                <i class="fas fa-apple-alt me-2"></i>
+                Strawbery</a></li>
+              <p>(2)</p>
+              </div>
+            </ul>
+            <ul>
+              <div class="jc-sb lh">
+              <li><a class="color" href="#">
+                <i class="fas fa-apple-alt me-2"></i>
+                Banana</a></li>
+              <p>(8)</p>
+              </div>
+            </ul>
+            <ul>
+              <div class="jc-sb lh">
+              <li><a class="color" href="#">
+                <i class="fas fa-apple-alt me-2"></i>
+                Pumpkin</a></li>
+              <p>(5)</p>
+              </div>
+            </ul>
           </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+          <div class="featured-products">
+            <h2 class="h2-color mb-20">Featured products</h2>
+            <div class="mini-card">
+              <div class="mini-img">
+                <img class="local-img" src="./assets/images/featur-1.jpg" alt="">
+              </div>
+              <div class="mini-content">
+                <h5 class="mb-10">Big Banana</h5>
+                <div class="star mb-10">
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </div>
+                <div class="price">
+                  <h5 class="cheap">2.99$</h5>
+                  <h5 class="expensive">4.11$</h5>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
+            <div class="mini-card">
+              <div class="mini-img">
+                <img class="local-img" src="./assets/images/featur-2.jpg" alt="">
+              </div>
+              <div class="mini-content">
+                <h5 class="mb-10">Big Banana</h5>
+                <div class="star mb-10">
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </div>
+                <div class="price">
+                  <h5 class="cheap">2.99$</h5>
+                  <h5 class="expensive">4.11$</h5>
+                </div>
+              </div>
             </div>
-            <img id="img" src="./assets/images/fruite-item-5.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+            <div class="mini-card">
+              <div class="mini-img">
+                <img class="local-img" src="./assets/images/featur-3.jpg" alt="">
+              </div>
+              <div class="mini-content">
+                <h5 class="mb-10">Big Banana</h5>
+                <div class="star mb-10">
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </div>
+                <div class="price">
+                  <h5 class="cheap">2.99$</h5>
+                  <h5 class="expensive">4.11$</h5>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
+            <div class="mini-card">
+              <div class="mini-img">
+                <img class="local-img" src="./assets/images/vegetable-item-4.jpg" alt="">
+              </div>
+              <div class="mini-content">
+                <h5 class="mb-10">Big Banana</h5>
+                <div class="star mb-10">
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </div>
+                <div class="price">
+                  <h5 class="cheap">2.99$</h5>
+                  <h5 class="expensive">4.11$</h5>
+                </div>
+              </div>
             </div>
-            <img id="img" src="./assets/images/fruite-item-2.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+            <div class="mini-card">
+              <div class="mini-img">
+                <img class="local-img" src="./assets/images/vegetable-item-5.jpg" alt="">
+              </div>
+              <div class="mini-content">
+                <h5 class="mb-10">Big Banana</h5>
+                <div class="star mb-10">
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </div>
+                <div class="price">
+                  <h5 class="cheap">2.99$</h5>
+                  <h5 class="expensive">4.11$</h5>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
-            </div>
-            <img id="img" src="./assets/images/fruite-item-4.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
-            </div>
-            <img id="img" src="./assets/images/fruite-item-3.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
-            </div>
-            <img id="img" src="./assets/images/fruite-item-1.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
-            </div>
-            <img id="img" src="./assets/images/fruite-item-2.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+            <div class="mini-card">
+              <div class="mini-img">
+                <img class="local-img" src="./assets/images/vegetable-item-6.jpg" alt="">
+              </div>
+              <div class="mini-content">
+                <h5 class="mb-10">Big Banana</h5>
+                <div class="star mb-10">
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                  <i class="fa fa-star text-secondary"></i>
+                </div>
+                <div class="price">
+                  <h5 class="cheap">2.99$</h5>
+                  <h5 class="expensive">4.11$</h5>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <div class="on-img">
-              Fruits
-            </div>
-            <img id="img" src="./assets/images/fruite-item-5.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <h1>Grapes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt<p>
-          </div>
-          <div class="card-footer">
-            <p>$4.99 / kg</p>
-            <div>
-              <button> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
-            </div>
-          </div>
+          <div class="fresh-furits-banner"></div>
         </div>
       </div>
     </div>
@@ -327,7 +327,7 @@
           </div>
           <div class="footer-subscribe">
             <div class="footer-button">
-              <input class="button-text" type="text" placeholder="Your Email"> 
+              <input class="button-text" type="text" placeholder="Your Email" />
               <button class="submit" type="submit">Subscribe Now</button>
             </div>
           </div>
@@ -349,44 +349,52 @@
         <div class="footer-content">
           <div class="fc-1">
             <h3>Why People Like us!</h3>
-            <p>typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+            <p>
+              typesetting, remaining essentially unchanged. It was popularised
+              in the 1960s with the like Aldus PageMaker including of Lorem
+              Ipsum.
+            </p>
             <div class="footer-button"><button>Read More</button></div>
           </div>
           <div class="fc-1 links">
             <h3>Shop Info</h3>
-            <div><ul>
-              <li><a href="">About US</a></li>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Terms & Condition</a></li>
-              <li><a href="">Return Policy</a></li>
-              <li><a href="">FAQs & Help</a></li>
-            </ul></div>
+            <div>
+              <ul>
+                <li><a href="">About US</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms & Condition</a></li>
+                <li><a href="">Return Policy</a></li>
+                <li><a href="">FAQs & Help</a></li>
+              </ul>
+            </div>
           </div>
           <div class="fc-1 links">
             <h3>Account</h3>
-            <div><ul>
-              <li><a href="">My Account</a></li>
-              <li><a href="">Shop Details</a></li>
-              <li><a href="">Shopping Cart</a></li>
-              <li><a href="">Whistlist</a></li>
-              <li><a href="">Order History</a></li>
-              <li><a href="">İnernationel Orders</a></li>
-            </ul></div>
+            <div>
+              <ul>
+                <li><a href="">My Account</a></li>
+                <li><a href="">Shop Details</a></li>
+                <li><a href="">Shopping Cart</a></li>
+                <li><a href="">Whistlist</a></li>
+                <li><a href="">Order History</a></li>
+                <li><a href="">İnernationel Orders</a></li>
+              </ul>
+            </div>
           </div>
           <div class="fc-1">
             <h3>Contact</h3>
             <p>
               Address: 1429 Netus Rd, NY 48247
-              <br>
+              <br />
               Email: Example@gmail.com
-              <br>
+              <br />
               Phone: +0123 4567 8910
-              <br>
+              <br />
               Payment Accepted
             </p>
             <div class="payment">
-              <img src="./assets/images/payment.png" alt="">
+              <img src="./assets/images/payment.png" alt="" />
             </div>
           </div>
         </div>
@@ -396,7 +404,8 @@
             <a href="#">Your Site Name</a>, All Rigt reserved.
           </div>
           <div class="copyright-right">
-            Designed By <a href="#">Mustafa Yiğit Gülşen</a> Distributed By <a href="#">ThemeWagon</a>
+            Designed By <a href="#">Mustafa Yiğit Gülşen</a> Distributed By
+            <a href="#">ThemeWagon</a>
           </div>
         </div>
       </div>
