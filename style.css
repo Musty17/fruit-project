@@ -653,8 +653,6 @@ footer {
 }
 .colon-1 {
     width: 75%;
-    display:flex;
-    justify-content: space-between;
 }
 .page-card-inclusive {
     display: flex;
@@ -837,9 +835,66 @@ footer {
     text-decoration: line-through;
 }
 /* DESCRİPTİON SECTİON START */
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 .description-header {
     border-bottom: 1px solid #dee2e6;
+    margin-top: 50px;
+    width: 100%;
+    margin-right: 15px;
 }
-.description {
-    display: block;
+.description-header button {
+    background-color: #fff;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.dp {
+    color: #495057;
+    border-bottom: 2px solid #FFB524 !important
+}
+.rw {
+    color: #81C408;
+}
+.rw:hover {
+    color: #198754;
+    transition: 0.5s;
+}
+.description-content {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.tablo {
+    width: 50%;
+}
+.tablo-content {
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+}
+.tablo-content div  {
+    text-align: center;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    align-items: center;
+}
+.tablo-content div p {
+    color: #747D96;
+}
+.bg-g {
+    background-color: #F4F6F8;
+}
+.bg-w {
+    background-color: #FFFFFF;
 }
